@@ -4,7 +4,6 @@
 }
 .somelists {
   display: inline;
-  margin-right: 52px;
 }
 * {
   box-sizing: border-box;
@@ -55,10 +54,27 @@ p {
 .nar {
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  .nar {
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+  }
+}
 .lists {
   display: inline;
-  margin-right: 52px;
+  margin-right: 48px;
   font-size: 14px;
+}
+@media (max-width: 500px) {
+  .lists {
+    margin-right: 0px;
+  }
+}
+.own {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 footer {
   color: #22283B;
@@ -76,10 +92,24 @@ footer {
 .home .intro p {
   padding: 0 15px;
 }
+@media (max-width: 500px) {
+  .home .intro .topimage {
+    width: 100%;
+  }
+}
 .home .space-images {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+}
+@media (max-width: 500px) {
+  .home .space-images .sky,
+  .home .space-images .launch {
+    display: none;
+  }
+  .home .space-images .blast {
+    width: 100%;
+  }
 }
 .home .space-images img {
   width: 28%;
@@ -103,6 +133,12 @@ footer {
   display: flex;
   justify-content: center;
 }
+@media (max-width: 500px) {
+  .home .walk {
+    flex-direction: column-reverse;
+    padding: 15px;
+  }
+}
 .home .walk .walk-text {
   width: 50%;
 }
@@ -112,9 +148,20 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
+@media (max-width: 500px) {
+  .home .walk .walk-text {
+    width: 100%;
+  }
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-img {
+    width: 100%;
+    margin-left: 0;
+  }
 }
 .home .walk .walk-img img {
   width: 100%;
@@ -131,6 +178,11 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+@media (max-width: 500px) {
+  .home .walk .btn {
+    width: 100%;
+  }
 }
 .home .walk .btn:hover {
   background-color: gray;
