@@ -1,3 +1,11 @@
+.sometop {
+  background-color: #f6f6f6;
+  text-align: center;
+}
+.somelists {
+  display: inline;
+  margin-right: 52px;
+}
 * {
   box-sizing: border-box;
 }
@@ -17,6 +25,9 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #23293B;
 }
+h1 {
+  font-size: 48px;
+}
 h2 {
   font-size: 3.2rem;
 }
@@ -31,6 +42,23 @@ p {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+.grow {
+  flex-grow: 1;
+}
+.top {
+  width: 100%;
+  padding: 15px 0;
+  background-color: #f6f6f6;
+  text-align: center;
+}
+.nar {
+  justify-content: space-between;
+}
+.lists {
+  display: inline;
+  margin-right: 52px;
+  font-size: 14px;
 }
 footer {
   color: #22283B;
@@ -92,4 +120,27 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+.home .walk .btn {
+  background-color: #22283a;
+  height: 47px;
+  border-radius: 9px;
+  font-size: 24px;
+  color: white;
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home .walk .btn:hover {
+  background-color: gray;
+  height: 47px;
+  border-radius: 9px;
+  font-size: 24px;
+  color: white;
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
 }
