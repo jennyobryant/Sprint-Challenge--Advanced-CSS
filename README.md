@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Full responsive website respond to the size of the browser at any given point.  No matter what the browser width may be, the site adjusts its layout in a way that is optimized to the screen.  Because the layout will respond accordingly.  Adaptive website adapt to the width of the browser at a specific point. So the website is only concerned about the browser being a specific width, at which point it adapts the layout. 
+
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first begins with designing for the main function of the site, then aims for higher resolutions (we used “min-width” in css style).  Desktop first means designing for the higher specifications - the best achievable by design- and then going down to smaller resolutions (we used “max-width” in css style).
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+62.5% of default of font-size of html element.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+CSS preprocessing is the tools, which extends CSS with variables, operators, functions, or mixins and many other usable assets. SASS, LESS, and Stylus are the well known ones.  We learned LESS this week.   In order to write better CSS, there were different approaches such as separating definitions into smaller files and importing them in to one main file.  Because having multiple classes increased re-usability but decreased the maintainability.  So preprocessors, with their advanced features, helped to achieve writing reusable, maintainable and extensible codes in CSS.  And by using it, we can easily increase productivity, and decrease the amount of code in the project. 
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+I like to have separating files in LESS, and importing them in to one main file.  The concept I got the most trouble is reading codes from others in LESS file. Because I did not used to that way to review and read other’s code.  So I did spend more time on it.  
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
